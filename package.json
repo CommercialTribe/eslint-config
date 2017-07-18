@@ -21,7 +21,8 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.0",
-    "tape": "^4.6.3"
+    "tape": "^4.6.3",
+    "webpack": "^3.3.0"
   },
   "homepage": "https://github.com/commercialtribe/eslint-config-isomorphic",
   "keywords": [
