@@ -1,0 +1,33 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "mocha": true
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:mocha/recommended",
+    "plugin:import/react",
+    "plugin:import/recommended"
+  ],
+  "plugins": [
+    "react",
+    "mocha",
+    "import"
+  ],
+  "rules": {
+    "import/export": "error",
+    "import/first": "error",
+    "import/no-duplicates": "error",
+    "import/no-webpack-loader-syntax": "error",
+    "import/order": ["error", {"newlines-between": "always-and-inside-groups"}],
+    "import/newline-after-import": 2,
+    "import/namespace": ["error", { "allowComputed": true }]
+  }
+}

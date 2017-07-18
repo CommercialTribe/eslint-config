@@ -1,0 +1,12 @@
+{
+  "env": {
+    "jasmine": true,
+    "phantomjs": true
+  },
+  "extends": [
+    "plugin:angular/johnpapa"
+  ],
+  "plugins": [
+    "angular"
+  ]
+}
