@@ -1,4 +1,4 @@
-# eslint-config-fullstack [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+# eslint-config-isomorphic [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
 [travis-image]: https://img.shields.io/travis/commercialtribe/eslint-config-isomorphic/master.svg
 [travis-url]: https://travis-ci.org/commercialtribe/eslint-config-isomorphic

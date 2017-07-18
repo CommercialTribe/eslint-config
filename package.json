@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-isomorphic",
   "description": "JavaScript Isomorphic Style - ESLint Shareable Config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": {
     "name": "Jason Waldrip",
     "email": "jwaldrip@commercialtribe.com"
