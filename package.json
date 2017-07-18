@@ -1,14 +1,13 @@
 {
-  "name": "eslint-config-standard",
-  "description": "JavaScript Standard Style - ESLint Shareable Config",
-  "version": "10.2.1",
+  "name": "eslint-config-isomorphic",
+  "description": "JavaScript Isomorphic Style - ESLint Shareable Config",
+  "version": "1.0.0",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "http://feross.org/"
+    "name": "Jason Waldrip",
+    "email": "jwaldrip@commercialtribe.com"
   },
   "bugs": {
-    "url": "https://github.com/feross/eslint-config-standard/issues"
+    "url": "https://github.com/commercialtribe/eslint-config-isomorphic/issues"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -24,9 +23,9 @@
     "eslint-plugin-standard": "^3.0.0",
     "tape": "^4.6.3"
   },
-  "homepage": "https://github.com/feross/eslint-config-standard",
+  "homepage": "https://github.com/commercialtribe/eslint-config-isomorphic",
   "keywords": [
-    "JavaScript Standard Style",
+    "JavaScript Isomorphic Style",
     "check",
     "checker",
     "code",
@@ -68,7 +67,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/eslint-config-standard.git"
+    "url": "git://github.com/commercialtribe/eslint-config-isomorphic.git"
   },
   "scripts": {
     "test": "tape test.js"
