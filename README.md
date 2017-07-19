@@ -1,4 +1,4 @@
-# eslint-config-isomorphic [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+# CommercialTribe eslint-configs [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
 [travis-image]: https://img.shields.io/travis/commercialtribe/eslint-config-isomorphic/master.svg
 [travis-url]: https://travis-ci.org/commercialtribe/eslint-config-isomorphic
@@ -11,48 +11,59 @@
 
 ## Install
 
-This module is for advanced users.
+First install the base config, then choose one of the following configs.
 
 ```bash
-npm install eslint-config-isomorphic
+yarn add --dev \
+  @commercial-tribe/eslint-config
+  eslint \
+  babel-eslint \
+  eslint-plugin-promise \
+  eslint-plugin-standard
 ```
 
-## Usage
-
-Shareable configs are designed to work with the `extends` feature of `.eslintrc` files.
-You can learn more about
-[Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the
-official ESLint website.
-
-To use the JavaScript Standard Style shareable config, first run this:
+### For React:
 
 ```bash
-yarn add eslint-config-isomorphic eslint babel-eslint eslint-import-resolver-webpack eslint-plugin-angular eslint-plugin-import eslint-plugin-jasmine eslint-plugin-mocha eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-isomorphic
+yarn add --dev \
+  eslint-plugin-react \
+  eslint-plugin-import \
+  eslint-import-resolver-webpack
 ```
 
-Then, add this to your .eslintrc file:
-
-For React:
+*Then, add this to your .eslintrc file:*
 
 ```
 {
-  "extends": "isomorphic/react"
+  "extends": "@commercial-tribe/react"
 }
 ```
 
-For Angular:
+### For Angular:
+
+```bash
+yarn add --dev \
+  eslint-plugin-angular
+```
+
+*Then, add this to your .eslintrc file:*
 
 ```
 {
-  "extends": "isomorphic/angular"
+  "extends": "@commercial-tribe/angular"
 }
 ```
 
-For Node:
+### For Node:
+
+```bash
+yarn add --dev \
+  eslint-plugin-node
+```
 
 ```
 {
-  "extends": "isomorphic/node"
+  "extends": "@commercial-tribe/node"
 }
 ```
 

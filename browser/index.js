@@ -1,2 +1,14 @@
 /* eslint-disable */
-module.exports = require('./.eslintrc.json');
+module.exports = {
+  'extends': [
+    '@commercial-tribe/eslint-config'
+  ],
+  env: {
+    browser: true
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
+    }
+  }
+};
