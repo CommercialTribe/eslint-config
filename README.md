@@ -27,7 +27,7 @@ official ESLint website.
 To use the JavaScript Standard Style shareable config, first run this:
 
 ```bash
-yarn add eslint-config-isomorphic eslint babel-eslint eslint-import-resolver-webpack eslint-plugin-angular eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
+yarn add --dev eslint-config-isomorphic eslint babel-eslint eslint-import-resolver-webpack eslint-plugin-angular eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
 ```
 
 Then, add this to your .eslintrc file:
