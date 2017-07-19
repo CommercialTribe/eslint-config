@@ -15,7 +15,7 @@
   "devDependencies": {
     "@commercial-tribe/eslint-config": "file:.",
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
+    "eslint": "^4.2.0",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
@@ -58,7 +58,7 @@
   "main": "index.js",
   "peerDependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
+    "eslint": "^4.0",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
