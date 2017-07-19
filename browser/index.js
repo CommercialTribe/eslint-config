@@ -1,5 +1,6 @@
 /* eslint-disable */
 module.exports = {
+	parser: 'babel-eslint',
   'extends': [
     '@commercial-tribe/eslint-config'
   ],
