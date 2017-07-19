@@ -1,8 +1,5 @@
 language: node_js
-node_js:
-  - 6
-  - 7
-  - node
+node_js: 6
 cache: yarn
 before_install:
   - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n" >> ~/.npmrc
