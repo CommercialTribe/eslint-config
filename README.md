@@ -35,7 +35,7 @@ yarn add --dev \
 
 ```
 {
-  "extends": "@commercial-tribe/react"
+  "extends": "@commercial-tribe/eslint-config/react"
 }
 ```
 
@@ -50,7 +50,7 @@ yarn add --dev \
 
 ```
 {
-  "extends": "@commercial-tribe/angular"
+  "extends": "@commercial-tribe/eslint-config/angular"
 }
 ```
 
@@ -63,7 +63,7 @@ yarn add --dev \
 
 ```
 {
-  "extends": "@commercial-tribe/node"
+  "extends": "@commercial-tribe/eslint-config/node"
 }
 ```
 
