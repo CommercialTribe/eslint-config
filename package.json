@@ -15,7 +15,7 @@
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
-    "eslint-config-isomorphic": "file:.",
+    "@commercial-tribe/eslint-config": "file:.",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
