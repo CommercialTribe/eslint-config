@@ -10,7 +10,7 @@
     "node": ">=6.0.0"
   },
   "bugs": {
-    "url": "https://github.com/commercialtribe/eslint-config-isomorphic/issues"
+    "url": "https://github.com/commercialtribe/eslint-config/issues"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -27,7 +27,7 @@
     "tape": "^4.6.3",
     "webpack": "^3.3.0"
   },
-  "homepage": "https://github.com/commercialtribe/eslint-config-isomorphic",
+  "homepage": "https://github.com/commercialtribe/eslint-config",
   "keywords": [
     "JavaScript Isomorphic Style",
     "check",
@@ -69,7 +69,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/commercialtribe/eslint-config-isomorphic.git"
+    "url": "git://github.com/commercialtribe/eslint-config.git"
   },
   "scripts": {
     "test": "tape test.js"
