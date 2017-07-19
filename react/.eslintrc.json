@@ -1,11 +1,9 @@
 {
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "impliedStrict": true
     }
-  },
-  "env": {
-    "mocha": true
   },
   "settings": {
     "import/resolver": "webpack"
@@ -18,7 +16,6 @@
   ],
   "plugins": [
     "react",
-    "mocha",
     "import"
   ],
   "rules": {
@@ -26,7 +23,7 @@
     "import/first": "error",
     "import/no-duplicates": "error",
     "import/no-webpack-loader-syntax": "error",
-    "import/order": ["error", {"newlines-between": "always-and-inside-groups"}],
+    "import/order": ["error", {"newlines-between": "never", "groups": ["builtin", "external", "internal", "parent", "sibling", "index"]}],
     "import/newline-after-import": 2,
     "import/namespace": ["error", { "allowComputed": true }]
   }

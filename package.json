@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-isomorphic",
   "description": "JavaScript Isomorphic Style - ESLint Shareable Config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Jason Waldrip",
     "email": "jwaldrip@commercialtribe.com"
@@ -15,8 +15,6 @@
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jasmine": "^2.7.1",
-    "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
@@ -59,8 +57,6 @@
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
     "eslint-plugin-import": ">=2.2.0",
-    "eslint-plugin-jasmine": "^2.7.1",
-    "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-node": ">=4.2.2",
     "eslint-plugin-promise": ">=3.5.0",
     "eslint-plugin-react": "^7.1.0",

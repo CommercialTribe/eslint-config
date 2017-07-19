@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "isomorphic/base"
+  ],
   "env": {
     "browser": true
   },

@@ -3,12 +3,14 @@ const path = require('path');
 const test = require('tape');
 const { flatMap } = require('lodash');
 
-function isObject (obj) {
-	return typeof obj === 'object' && obj !== null
+function isObjectOrUndef (obj) {
+	return if obj === undefined;
+	return typeof obj === 'object';
 }
 
-function isArray (ary) {
-	return [] instanceof Array
+function isArrayOrUndef (ary) {
+	return if ary === undefined;
+	return [] instanceof Array;
 }
 
 function runTests (dir) {
@@ -29,11 +31,11 @@ function runTests (dir) {
 	})
 
 	test('test basic properties of config', function (t) {
-	  t.ok(isObject(config.parserOptions))
-	  t.ok(isObject(config.env))
-	  t.ok(isObject(config.globals))
-	  t.ok(isObject(config.rules))
-		t.ok(isArray(config.plugins))
+	  t.ok(isObjectOrUndef(config.parserOptions))
+	  t.ok(isObjectOrUndef(config.env))
+	  t.ok(isObjectOrUndef(config.globals))
+	  t.ok(isObjectOrUndef(config.rules))
+		t.ok(isArrayOrUndef(config.plugins))
 	  t.end()
 	})
 
