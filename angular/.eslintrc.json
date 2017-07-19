@@ -17,6 +17,7 @@
   "rules": {
     "no-undef": 1,
     "angular/timeout-service": 1,
+    "angular/interval-service": 1,
     "angular/no-run-logic": 1,
     "angular/on-watch": 1,
     "angular/controller-as-route": 1,
