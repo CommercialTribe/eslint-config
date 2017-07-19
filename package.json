@@ -13,9 +13,9 @@
     "url": "https://github.com/commercialtribe/eslint-config-isomorphic/issues"
   },
   "devDependencies": {
-    "eslint-config-isomorphic": "file:.",
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
+    "eslint-config-isomorphic": "file:.",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
@@ -23,6 +23,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.0",
+    "react": "^15.6.1",
     "tape": "^4.6.3",
     "webpack": "^3.3.0"
   },
