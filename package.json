@@ -1,7 +1,7 @@
 {
   "name": "@commercial-tribe/eslint-config",
   "description": "CommercialTribe JavaScript ESLint Shareable Config",
-  "version": "0.0.1",
+  "version": "dev",
   "author": {
     "name": "Jason Waldrip",
     "email": "jwaldrip@commercialtribe.com"
