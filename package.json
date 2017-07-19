@@ -1,15 +1,19 @@
 {
   "name": "eslint-config-isomorphic",
   "description": "JavaScript Isomorphic Style - ESLint Shareable Config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Jason Waldrip",
     "email": "jwaldrip@commercialtribe.com"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "bugs": {
     "url": "https://github.com/commercialtribe/eslint-config-isomorphic/issues"
   },
   "devDependencies": {
+    "eslint-config-isomorphic": "file:.",
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-import-resolver-webpack": "^0.8.3",

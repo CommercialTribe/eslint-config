@@ -4,18 +4,19 @@ const test = require('tape');
 const { flatMap } = require('lodash');
 
 function isObjectOrUndef (obj) {
-	return if obj === undefined;
+	if (obj === undefined) return true;
 	return typeof obj === 'object';
 }
 
 function isArrayOrUndef (ary) {
-	return if ary === undefined;
+	if (ary === undefined) return true;
 	return [] instanceof Array;
 }
 
 function runTests (dir) {
+	const filename = dir === 'react' ? 'fixture.jsx' : 'fixture.jsx';
 	const config = require(path.resolve(__dirname, dir));
-	const fixture = path.resolve(__dirname, dir, 'fixture.js');
+	const fixture = path.resolve(__dirname, dir, filename);
 	test(`load config in eslint to validate rule syntax is correct (${dir})`, function (t) {
 
 	  const cli = new CLIEngine({ baseConfig: config });

@@ -10,7 +10,6 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "plugin:mocha/recommended",
     "plugin:import/react",
     "plugin:import/recommended"
   ],

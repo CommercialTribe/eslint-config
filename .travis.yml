@@ -1,4 +1,17 @@
 language: node_js
 node_js:
-  - '6'
-  - 'node'
+  - 6
+  - 7
+  - node
+cache: yarn
+before_install:
+  - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n" >> ~/.npmrc
+install: yarn install
+script: yarn test
+before_deploy:
+  - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n" >> ~/.npmrc
+deploy:
+  - provider: script
+    script: yarn version --message="[ci skip] bump package version" --new-version "1.$TRAVIS_BUILD_NUMBER.0" && git push --tags
+    on:
+      branch: master
