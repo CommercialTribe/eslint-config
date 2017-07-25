@@ -18,10 +18,12 @@
     "eslint": "^4.2.0",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
+    "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^3.0.0",
     "react": "^15.6.1",
     "tape": "^4.6.3",
@@ -55,12 +57,14 @@
     "verify"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "peerDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.0",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-angular": "^3.0.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
@@ -81,7 +85,9 @@
     "url": "git://github.com/commercialtribe/eslint-config.git"
   },
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "lint": "eslint **/*.{js,jsx}",
+    "lint-fix": "eslint --fix"
   },
   "dependencies": {
     "lodash": "^4.17.4"
