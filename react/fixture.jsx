@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Foo extends React.Component {
+export default class Fixture extends React.Component {
 	render () {
 		return <div>Hello World</div>;
 	}

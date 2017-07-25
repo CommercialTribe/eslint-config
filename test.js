@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { CLIEngine } = require('eslint');
 const path = require('path');
 const test = require('tape');
@@ -15,7 +16,7 @@ function isArrayOrUndef (ary) {
 
 function runTests (dir) {
 	const filename = dir === 'react' ? 'fixture.jsx' : 'fixture.jsx';
-	const config = require(path.resolve(__dirname, dir));
+	const config = require(path.resolve(__dirname, dir)); // eslint-diable-line security/detect-non-literal-require
 	const fixture = path.resolve(__dirname, dir, filename);
 	test(`load config in eslint to validate rule syntax is correct (${dir})`, function (t) {
 
