@@ -68,10 +68,7 @@ module.exports = {
       'last'
     ],
     'constructor-super': 'error',
-    curly: [
-      'error',
-      'multi-line'
-    ],
+    curly: 'error',
     'dot-location': [
       'error',
       'property'
