@@ -44,6 +44,7 @@ module.exports = {
       {
         allowComputed: true
       }
-    ]
+    ],
+    'react/jsx-boolean-value': 'error'
   }
 };
