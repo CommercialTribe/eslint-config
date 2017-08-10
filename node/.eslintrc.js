@@ -5,10 +5,12 @@ module.exports = {
 	},
 	'extends': [
 		'@commercial-tribe/eslint-config',
-		'plugin:node/recommended'
+		'plugin:node/recommended',
+		'plugin:security/recommended'
 	],
 	plugins: [
-		'node'
+		'node',
+		'security'
 	],
 	rules: {
 		'node/no-unpublished-require': 0

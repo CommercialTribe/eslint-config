@@ -12,12 +12,8 @@ module.exports = {
   plugins: [
     'promise',
     'standard',
-    'filenames',
-		'security'
+    'filenames'
   ],
-	extends: [
-		'plugin:security/recommended'
-	],
   rules: {
     'filenames/match-regex': [ 1, "^[0-9a-z-]+" + filenameSuffix, true],
 		"filenames/match-exported": [ 1, "kebab", filenameSuffix ],
