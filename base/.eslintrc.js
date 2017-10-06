@@ -303,13 +303,7 @@ module.exports = {
     ],
     'operator-linebreak': [
       'error',
-      'after',
-      {
-        overrides: {
-          '?': 'before',
-          ':': 'before'
-        }
-      }
+      'after'
     ],
     'padded-blocks': [
       'error',
