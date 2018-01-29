@@ -15,8 +15,8 @@ module.exports = {
     'filenames'
   ],
   rules: {
-    'filenames/match-regex': [ 1, "^[0-9a-z-]+" + filenameSuffix, true],
-		"filenames/match-exported": [ 1, "kebab", filenameSuffix ],
+    'filenames/match-regex': [1, "^[0-9a-z-]+" + filenameSuffix, true],
+    "filenames/match-exported": [1, "kebab", filenameSuffix],
     'accessor-pairs': 'error',
     'arrow-spacing': [
       'error',
@@ -124,6 +124,7 @@ module.exports = {
       }
     ],
     'new-parens': 'error',
+    'no-warning-comments': ['error', { terms: ['todo'], location: 'anywhere' }],
     'no-array-constructor': 'error',
     'no-caller': 'error',
     'no-class-assign': 'error',
